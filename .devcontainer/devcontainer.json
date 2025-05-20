@@ -1,0 +1,12 @@
+{
+  "name": "Nginx Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "nginx",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [80],
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
